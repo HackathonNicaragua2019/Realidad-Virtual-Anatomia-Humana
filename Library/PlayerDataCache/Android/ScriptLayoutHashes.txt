@@ -1,7 +1,8 @@
 Android
 PlayerPath?
-C:/Users/Mora Reyes/Documents/Hackathon/New Unity Project/Prueba0.2.apk
+C:/Users/Mora Reyes/Documents/Hackathon/New Unity Project/Prueba 0.3apk.apk
 SceneListBegin?
+Assets/GoogleVR/Demos/Scenes/VideoDemo.unity
 Assets/GoogleVR/Demos/Scenes/HelloVR.unity
 SceneListEnd?
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
