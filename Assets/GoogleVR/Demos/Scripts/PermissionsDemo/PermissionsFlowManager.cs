@@ -20,6 +20,7 @@ namespace GoogleVR.PermissionsDemo
 {
     using System.Collections.Generic;
     using UnityEngine;
+    using UnityEngine.SceneManagement;
     using UnityEngine.UI;
 
 #if UNITY_ANDROID || UNITY_EDITOR
@@ -39,6 +40,12 @@ namespace GoogleVR.PermissionsDemo
         /// Checks whether all necessary external permissions have been granted and informs user of
         /// the current state.
         /// </summary>
+
+        public void traspasar(string nombre)
+        {
+            SceneManager.LoadScene(nombre);
+        }
+
         public void CheckPermission()
         {
             statusText.text = "Checking permission....";
