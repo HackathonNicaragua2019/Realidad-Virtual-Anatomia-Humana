@@ -20,6 +20,7 @@ namespace GoogleVR.HelloVR
 {
     using UnityEngine;
     using UnityEngine.EventSystems;
+    using UnityEngine.SceneManagement;
 
     /// <summary>Controls interactable teleporting objects in the Demo scene.</summary>
     [RequireComponent(typeof(Collider))]
@@ -77,9 +78,17 @@ namespace GoogleVR.HelloVR
 
         /// <summary>Teleport this instance randomly when triggered by a pointer click.</summary>
         /// <param name="eventData">The pointer click event which triggered this call.</param>
+
+        public void traspasar(string nombre)
+        {
+            SceneManager.LoadScene(nombre);
+        }
+
         public void TeleportRandomly(BaseEventData eventData)
         {
+
             print("Hola mi amor te amo");
+            //SceneManager.LoadScene(nombre);
             // Only trigger on left input button, which maps to
             // Daydream controller TouchPadButton and Trigger buttons.
             PointerEventData ped = eventData as PointerEventData;
