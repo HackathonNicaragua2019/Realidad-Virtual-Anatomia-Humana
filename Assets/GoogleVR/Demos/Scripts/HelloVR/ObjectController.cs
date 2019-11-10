@@ -79,6 +79,7 @@ namespace GoogleVR.HelloVR
         /// <param name="eventData">The pointer click event which triggered this call.</param>
         public void TeleportRandomly(BaseEventData eventData)
         {
+            print("Hola mi amor te amo");
             // Only trigger on left input button, which maps to
             // Daydream controller TouchPadButton and Trigger buttons.
             PointerEventData ped = eventData as PointerEventData;
